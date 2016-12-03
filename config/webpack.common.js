@@ -140,14 +140,14 @@ module.exports = function (options) {
 
         {
           test: /\.scss$/,
-          use: ['raw-loader', 'sass-loader']
+          use: ['raw-loader', 'postcss-loader', 'sass-loader']
         },
 
         {
           test: /initial\.scss$/,
           loader: ExtractTextPlugin.extract({
             fallbackLoader: 'style-loader',
-            loader: 'css-loader!sass-loader?sourceMap'
+            loader: 'css-loader!postcss-loader!sass-loader?sourceMap'
           })
         },
 
