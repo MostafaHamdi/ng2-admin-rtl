@@ -6,7 +6,7 @@ export const PAGES_MENU = [
         path: 'dashboard',
         data: {
           menu: {
-            title: 'Dashboard',
+            title: 'داشبورد',
             icon: 'ion-android-home',
             selected: false,
             expanded: false,
@@ -18,7 +18,7 @@ export const PAGES_MENU = [
         path: 'editors',
         data: {
           menu: {
-            title: 'Editors',
+            title: 'ویرایشگر',
             icon: 'ion-edit',
             selected: false,
             expanded: false,
@@ -62,7 +62,7 @@ export const PAGES_MENU = [
         path: 'charts',
         data: {
           menu: {
-            title: 'Charts',
+            title: 'نمودار',
             icon: 'ion-stats-bars',
             selected: false,
             expanded: false,
@@ -84,7 +84,7 @@ export const PAGES_MENU = [
         path: 'ui',
         data: {
           menu: {
-            title: 'UI Features',
+            title: 'مولفه ها',
             icon: 'ion-android-laptop',
             selected: false,
             expanded: false,
@@ -96,7 +96,7 @@ export const PAGES_MENU = [
             path: 'typography',
             data: {
               menu: {
-                title: 'Typography',
+                title: 'تایپوگرافی',
               }
             }
           },
@@ -104,7 +104,7 @@ export const PAGES_MENU = [
             path: 'buttons',
             data: {
               menu: {
-                title: 'Buttons',
+                title: 'دکمه ها',
               }
             }
           },
@@ -112,7 +112,7 @@ export const PAGES_MENU = [
             path: 'icons',
             data: {
               menu: {
-                title: 'Icons',
+                title: 'آیکن ها',
               }
             }
           },
@@ -120,7 +120,7 @@ export const PAGES_MENU = [
             path: 'modals',
             data: {
               menu: {
-                title: 'Modals',
+                title: 'مدال',
               }
             }
           },
@@ -128,7 +128,7 @@ export const PAGES_MENU = [
             path: 'grid',
             data: {
               menu: {
-                title: 'Grid',
+                title: 'گرید',
               }
             }
           },
@@ -138,7 +138,7 @@ export const PAGES_MENU = [
         path: 'forms',
         data: {
           menu: {
-            title: 'Form Elements',
+            title: 'عناصر فرم',
             icon: 'ion-compose',
             selected: false,
             expanded: false,
@@ -150,7 +150,7 @@ export const PAGES_MENU = [
             path: 'inputs',
             data: {
               menu: {
-                title: 'Form Inputs',
+                title: 'فرم',
               }
             }
           },
@@ -158,7 +158,7 @@ export const PAGES_MENU = [
             path: 'layouts',
             data: {
               menu: {
-                title: 'Form Layouts',
+                title: 'طرح های فرم',
               }
             }
           }
@@ -168,7 +168,7 @@ export const PAGES_MENU = [
         path: 'tables',
         data: {
           menu: {
-            title: 'Tables',
+            title: 'جدول ها',
             icon: 'ion-grid',
             selected: false,
             expanded: false,
@@ -180,7 +180,7 @@ export const PAGES_MENU = [
             path: 'basictables',
             data: {
               menu: {
-                title: 'Basic Tables',
+                title: 'جدول های معمولی',
               }
             }
           },
@@ -188,7 +188,7 @@ export const PAGES_MENU = [
             path: 'smarttables',
             data: {
               menu: {
-                title: 'Smart Tables',
+                title: 'جدول های هوشنمد',
               }
             }
           }
@@ -198,7 +198,7 @@ export const PAGES_MENU = [
         path: 'maps',
         data: {
           menu: {
-            title: 'Maps',
+            title: 'نقشه ها',
             icon: 'ion-ios-location-outline',
             selected: false,
             expanded: false,
@@ -210,7 +210,7 @@ export const PAGES_MENU = [
             path: 'googlemaps',
             data: {
               menu: {
-                title: 'Google Maps',
+                title: 'Google نقشه',
               }
             }
           },
@@ -218,7 +218,7 @@ export const PAGES_MENU = [
             path: 'leafletmaps',
             data: {
               menu: {
-                title: 'Leaflet Maps',
+                title: 'Leaflet نقشه',
               }
             }
           },
@@ -226,7 +226,7 @@ export const PAGES_MENU = [
             path: 'bubblemaps',
             data: {
               menu: {
-                title: 'Bubble Maps',
+                title: 'Bubble نقشه',
               }
             }
           },
@@ -244,7 +244,7 @@ export const PAGES_MENU = [
         path: '',
         data: {
           menu: {
-            title: 'Pages',
+            title: 'صفحات',
             icon: 'ion-document',
             selected: false,
             expanded: false,
@@ -256,7 +256,7 @@ export const PAGES_MENU = [
             path: ['/login'],
             data: {
               menu: {
-                title: 'Login'
+                title: 'ورود'
               }
             }
           },
@@ -264,7 +264,7 @@ export const PAGES_MENU = [
             path: ['/register'],
             data: {
               menu: {
-                title: 'Register'
+                title: 'عضویت'
               }
             }
           }
@@ -274,7 +274,7 @@ export const PAGES_MENU = [
         path: '',
         data: {
           menu: {
-            title: 'Menu Level 1',
+            title: 'منو سطح ۱',
             icon: 'ion-ios-more',
             selected: false,
             expanded: false,
@@ -286,7 +286,7 @@ export const PAGES_MENU = [
             path: '',
             data: {
               menu: {
-                title: 'Menu Level 1.1',
+                title: 'منو سطح ۱.۱',
                 url: '#'
               }
             }
@@ -295,7 +295,7 @@ export const PAGES_MENU = [
             path: '',
             data: {
               menu: {
-                title: 'Menu Level 1.2',
+                title: 'منو سطح ۱.۲',
                 url: '#'
               }
             },
@@ -304,7 +304,7 @@ export const PAGES_MENU = [
                 path: '',
                 data: {
                   menu: {
-                    title: 'Menu Level 1.2.1',
+                    title: 'منو سطح ۱.۲.۱',
                     url: '#'
                   }
                 }

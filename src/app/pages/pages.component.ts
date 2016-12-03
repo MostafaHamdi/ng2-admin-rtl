@@ -15,6 +15,7 @@ import {Component, ViewEncapsulation} from '@angular/core';
     <footer class="al-footer clearfix">
       <div class="al-footer-right">Created with <i class="ion-heart"></i></div>
       <div class="al-footer-main clearfix">
+        <div class="al-copy"> RTL by <a href="https://github.com/mmdsharifi">@mmdsharifi</a> </div>
         <div class="al-copy">&copy; <a href="http://akveo.com">Akveo</a> 2016</div>
         <ul class="al-share clearfix">
           <li><i class="socicon socicon-facebook"></i></li>
