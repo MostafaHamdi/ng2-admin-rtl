@@ -18,6 +18,9 @@ Here you can find Angular 1.x based version: [Blur Admin](http://akveo.github.io
 ## Documentation
 Installation, customization and other useful articles: https://akveo.github.io/ng2-admin/
 
+### RTL support
+RTL layout with postcss plugin [rtlcss](https://github.com/MohammadYounes/rtlcss) and [Vazir font](https://github.com/rastikerdar/vazir-font)
+
 ## Based on
 Angular 2, Bootstrap 4, Webpack and lots of awesome modules and plugins
 
