@@ -1,0 +1,18 @@
+/* @author: Mohammad Sharifi 2016-12-03*/
+@font-face {
+  font-family: Vazir;
+  src: url('#{$fonts-root}Vazir-FD.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('#{$fonts-root}Vazir-Bold-FD.woff') format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('#{$fonts-root}Vazir-Light-FD.woff') format('woff');
+  font-weight: 300;
+}
