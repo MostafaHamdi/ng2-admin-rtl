@@ -8,7 +8,7 @@ Admin template made with :heart:  by [Akveo team](http://akveo.com/). Follow us 
 
 ### Demo
 
-<a target="_blank" href="http://akveo.com/ng2-admin/"><img src="http://i.imgur.com/QK9AzHj.jpg" width="600" alt="Sky Blue"/></a>
+[![screencaptur-NG2admin-rtl.png](https://s11.postimg.org/malf6q22b/screencaptur_NG2admin_rtl.png)](https://postimg.org/image/npmzvg35b/)
 
 <a target="_blank" href="http://akveo.com/ng2-admin/">Live Demo</a>
 
