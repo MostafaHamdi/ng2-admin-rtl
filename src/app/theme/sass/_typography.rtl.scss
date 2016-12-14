@@ -1,18 +1,27 @@
 /* @author: Mohammad Sharifi 2016-12-03*/
 @font-face {
-  font-family: Vazir;
-  src: url('#{$fonts-root}Vazir-FD.woff') format('woff');
+  font-family: 'Vazir';
+  src: url('#{$fonts-root}Vazir.eot');
+  src: url('#{$fonts-root}Vazir.eot?#iefix') format('embedded-opentype'),
+       url('#{$fonts-root}Vazir.woff') format('woff'),
+       url('#{$fonts-root}Vazir.ttf') format('truetype');
   font-weight: normal;
 }
 
 @font-face {
-  font-family: Vazir;
-  src: url('#{$fonts-root}Vazir-Bold-FD.woff') format('woff');
+  font-family: 'Vazir';
+  src: url('#{$fonts-root}Vazir-Bold.eot');
+  src: url('#{$fonts-root}Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+       url('#{$fonts-root}Vazir-Bold.woff') format('woff'),
+       url('#{$fonts-root}Vazir-Bold.ttf') format('truetype');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: Vazir;
-  src: url('#{$fonts-root}Vazir-Light-FD.woff') format('woff');
+  font-family: 'Vazir';
+  src: url('#{$fonts-root}Vazir-Light.eot');
+  src: url('#{$fonts-root}Vazir-Light.eot?#iefix') format('embedded-opentype'),
+       url('#{$fonts-root}Vazir-Light.woff') format('woff'),
+       url('#{$fonts-root}Vazir-Light.ttf') format('truetype');
   font-weight: 300;
 }
