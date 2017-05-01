@@ -1,8 +1,11 @@
-import {Component, ViewEncapsulation} from '@angular/core';
+import { Component } from '@angular/core';
+import { Routes } from '@angular/router';
+
+import { BaMenuService } from '../theme';
+import { PAGES_MENU } from './pages.menu';
+
 @Component({
   selector: 'pages',
-  encapsulation: ViewEncapsulation.None,
-  styles: [],
   template: `
     <ba-sidebar></ba-sidebar>
     <ba-page-top></ba-page-top>
@@ -13,10 +16,14 @@ import {Component, ViewEncapsulation} from '@angular/core';
       </div>
     </div>
     <footer class="al-footer clearfix">
-      <div class="al-footer-right">Created with <i class="ion-heart"></i></div>
+      <div class="al-footer-right" translate>{{'general.created_with'}} <i class="ion-heart"></i></div>
       <div class="al-footer-main clearfix">
+<<<<<<< HEAD
         <div class="al-copy"> RTL by <a href="https://github.com/mmdsharifi">@mmdsharifi</a> </div>
         <div class="al-copy">&copy; <a href="http://akveo.com">Akveo</a> 2016</div>
+=======
+        <div class="al-copy">&copy; <a href="http://akveo.com" translate>{{'general.akveo'}}</a> 2016</div>
+>>>>>>> 17ee11e4aa63ee0361ca9b45ab2d5d2ac49ff165
         <ul class="al-share clearfix">
           <li><i class="socicon socicon-facebook"></i></li>
           <li><i class="socicon socicon-twitter"></i></li>
@@ -30,9 +37,10 @@ import {Component, ViewEncapsulation} from '@angular/core';
 })
 export class Pages {
 
-  constructor() {
+  constructor(private _menuService: BaMenuService,) {
   }
 
   ngOnInit() {
+    this._menuService.updateMenuByRoutes(<Routes>PAGES_MENU);
   }
 }
