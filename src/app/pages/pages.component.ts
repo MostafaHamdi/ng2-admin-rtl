@@ -18,12 +18,8 @@ import { PAGES_MENU } from './pages.menu';
     <footer class="al-footer clearfix">
       <div class="al-footer-right" translate>{{'general.created_with'}} <i class="ion-heart"></i></div>
       <div class="al-footer-main clearfix">
-<<<<<<< HEAD
         <div class="al-copy"> RTL by <a href="https://github.com/mmdsharifi">@mmdsharifi</a> </div>
         <div class="al-copy">&copy; <a href="http://akveo.com">Akveo</a> 2016</div>
-=======
-        <div class="al-copy">&copy; <a href="http://akveo.com" translate>{{'general.akveo'}}</a> 2016</div>
->>>>>>> 17ee11e4aa63ee0361ca9b45ab2d5d2ac49ff165
         <ul class="al-share clearfix">
           <li><i class="socicon socicon-facebook"></i></li>
           <li><i class="socicon socicon-twitter"></i></li>
@@ -37,7 +33,7 @@ import { PAGES_MENU } from './pages.menu';
 })
 export class Pages {
 
-  constructor(private _menuService: BaMenuService,) {
+  constructor(private _menuService: BaMenuService, ) {
   }
 
   ngOnInit() {

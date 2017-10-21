@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-@import "sass/conf/conf";
-@import "sass/bootstrap-overrides/overrides";
-@import "~animate.css/animate";
-@import "sass/typography.rtl";
-@import "sass/buttons";
-@import "sass/icons";
-@import "sass/layout";
-@import "sass/socicon";
-@import "sass/table";
-@import "sass/form";
-@import "sass/treeView";
-=======
 @import 'sass/conf/conf';
 @import 'sass/bootstrap-overrides/overrides';
 @import '~animate.css/animate';
@@ -26,4 +13,4 @@
 @import 'sass/preloader';
 @import 'sass/ionicons';
 @import 'sass/fonts';
->>>>>>> 17ee11e4aa63ee0361ca9b45ab2d5d2ac49ff165
+@import "sass/typography.rtl";
